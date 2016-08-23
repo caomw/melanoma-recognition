@@ -1,0 +1,49 @@
+\BOOKMARK [0][-]{chapter.1}{Overview}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Goal}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Environment}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Execution}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Code View}{}% 6
+\BOOKMARK [1][-]{section.2.1}{main.m}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Function}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Accelerating the program}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{Parameters}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.4}{Output}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.5}{Code of main.m}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{trainMyNetwork.m}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Function}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Accelerating the program}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Input parameters}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{Internal parameters}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.5}{Output parameters}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.6}{Code of trainMyNetwork.m}{section.2.2}% 19
+\BOOKMARK [1][-]{section.2.3}{getSegment.m}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.1}{Function}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.2}{Accelerating the program}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.3}{Input parameters}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.4}{Output parameters}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.5}{Output}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.6}{Code of getSegment.m}{section.2.3}% 26
+\BOOKMARK [1][-]{section.2.4}{featureExtra.m}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.4.1}{Function}{section.2.4}% 28
+\BOOKMARK [2][-]{subsection.2.4.2}{Input parameters}{section.2.4}% 29
+\BOOKMARK [2][-]{subsection.2.4.3}{Output}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.4}{Code of featureExtra.m}{section.2.4}% 31
+\BOOKMARK [0][-]{chapter.3}{Application}{}% 32
+\BOOKMARK [1][-]{section.3.1}{Image pipeline}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.1.1}{Median filter}{section.3.1}% 34
+\BOOKMARK [2][-]{subsection.3.1.2}{Segmentation with Active contour without edges}{section.3.1}% 35
+\BOOKMARK [2][-]{subsection.3.1.3}{Feature extracion}{section.3.1}% 36
+\BOOKMARK [1][-]{section.3.2}{Dataset}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.3}{Neural Network}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.1}{Network definition}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.2}{Network input and output}{section.3.3}% 40
+\BOOKMARK [1][-]{section.3.4}{Testing}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.4.1}{Changing dataset}{section.3.4}% 42
+\BOOKMARK [2][-]{subsection.3.4.2}{Using default network}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.3}{Train your network}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.4}{Results}{section.3.4}% 45
+\BOOKMARK [0][-]{chapter.4}{Future work}{}% 46
+\BOOKMARK [1][-]{section.4.1}{What we can improve:}{chapter.4}% 47
+\BOOKMARK [2][-]{subsection.4.1.1}{Data}{section.4.1}% 48
+\BOOKMARK [2][-]{subsection.4.1.2}{Speed}{section.4.1}% 49

@@ -1,0 +1,72 @@
+\contentsline {chapter}{\numberline {1}Overview}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Goal}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Environment}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Execution}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Code View}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}main.m}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Function}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Accelerating the program}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Parameters}{7}{subsection.2.1.3}
+\contentsline {subsubsection}{numberofCancer}{7}{section*.4}
+\contentsline {subsubsection}{numberofOther}{7}{section*.5}
+\contentsline {subsubsection}{reComputeFeature}{7}{section*.6}
+\contentsline {subsubsection}{reTrainNetwork}{7}{section*.7}
+\contentsline {subsection}{\numberline {2.1.4}Output}{8}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Code of main.m}{8}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}trainMyNetwork.m}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Function}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Accelerating the program}{10}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Input parameters}{10}{subsection.2.2.3}
+\contentsline {subsubsection}{numberofCancer}{10}{section*.10}
+\contentsline {subsubsection}{numberofOther}{10}{section*.11}
+\contentsline {subsubsection}{retrainFea}{10}{section*.12}
+\contentsline {subsubsection}{retrainNetwork}{10}{section*.13}
+\contentsline {subsection}{\numberline {2.2.4}Internal parameters}{10}{subsection.2.2.4}
+\contentsline {subsubsection}{trainNumberOfCancer}{11}{section*.14}
+\contentsline {subsubsection}{trainNumberOfOther}{11}{section*.15}
+\contentsline {subsubsection}{myNet.trainParam.lr}{11}{section*.16}
+\contentsline {subsubsection}{myNet.trainParam.goal}{11}{section*.17}
+\contentsline {subsubsection}{myNet.trainParam.epochsl}{11}{section*.18}
+\contentsline {subsection}{\numberline {2.2.5}Output parameters}{11}{subsection.2.2.5}
+\contentsline {subsubsection}{myNet}{11}{section*.19}
+\contentsline {subsubsection}{trainNumberOfCancer}{11}{section*.20}
+\contentsline {subsubsection}{trainNumberOfOther}{11}{section*.21}
+\contentsline {subsection}{\numberline {2.2.6}Code of trainMyNetwork.m}{12}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}getSegment.m}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Function}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Accelerating the program}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Input parameters}{14}{subsection.2.3.3}
+\contentsline {subsubsection}{imgFilename}{14}{section*.22}
+\contentsline {subsubsection}{printImage}{14}{section*.23}
+\contentsline {subsection}{\numberline {2.3.4}Output parameters}{14}{subsection.2.3.4}
+\contentsline {subsubsection}{X}{14}{section*.24}
+\contentsline {subsection}{\numberline {2.3.5}Output}{14}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Code of getSegment.m}{16}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}featureExtra.m}{18}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Function}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Input parameters}{18}{subsection.2.4.2}
+\contentsline {subsubsection}{inputImage}{18}{section*.26}
+\contentsline {subsection}{\numberline {2.4.3}Output}{18}{subsection.2.4.3}
+\contentsline {subsubsection}{outputX}{18}{section*.27}
+\contentsline {subsection}{\numberline {2.4.4}Code of featureExtra.m}{19}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {3}Application}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Image pipeline}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Median filter}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Segmentation with Active contour without edges}{21}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Feature extracion}{22}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Dataset}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Neural Network}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Network definition}{23}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Network input and output}{23}{subsection.3.3.2}
+\contentsline {subsubsection}{Input definition}{23}{section*.32}
+\contentsline {subsubsection}{Output definition}{24}{section*.34}
+\contentsline {section}{\numberline {3.4}Testing}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Changing dataset}{24}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Using default network}{24}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Train your network}{25}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Results}{25}{subsection.3.4.4}
+\contentsline {chapter}{\numberline {4}Future work}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}What we can improve:}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Data}{27}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Speed}{27}{subsection.4.1.2}
